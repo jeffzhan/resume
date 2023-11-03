@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	\textbf{\Huge \scshape Jeffery Zhan} \\ \vspace{1pt}
+	\small 289-300-1504 $|$ \href{mailto:jefferyzhan84@gmail.com}{\underline{jefferyzhan84@gmail.com}} $|$ 
+	\href{https://linkedin.com/in/jeffery-zhan}{\underline{linkedin.com/in/jeffery-zhan}} $|$
+	\href{https://github.com/jeffzhan}{\underline{github.com/jeffzhan}}
+\end{center}
+%---------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+		{University of Toronto}{Sep 2021 -- May 2025}
+		{Bachelor of Science in Computer Science (Co-op)}{Toronto, ON}
+		\resumeItemListStart
+			\resumeItem{University of Toronto Scholar's Program (\textbf{Top 10\%})}
+			\resumeItem{\textbf{Courses:} Data Structures \& Algorithms, Software Design,  Operating Systems, Systems Programming}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+%-------------------------------
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+		\textbf{Languages}{: Python, C, TypeScript/JavaScript, Java, SQL, HTML/CSS,  Shell} \\
+		\textbf{Frameworks/Libraries}{: Angular, React, Django, Next.js, Node.js} \\
+		\textbf{Tools \& Utilities}{: PostgreSQL, Git, Docker, Postman, Agile, CI/CD,  Unix, Linux} \\
+	}}
+\end{itemize}
+%--------------------------------------
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+	\resumeSubHeadingListStart
+	
+		\resumeSubheading{Full-stack Developer Co-op}{May 2023 -- Dec 2023}{Temerity Analytics Inc.}{Toronto, ON}
+		\resumeItemListStart\
+			\resumeItem{Empowered clients with \textbf{2x} more analytics data by building end-to-end API integrations to retrieve/store/visualize data from third-party APIs, TikTok, Pinterest, and Google, leveraging \textbf{Angular}, \textbf{Django}, and \textbf{PostgreSQL}.}
+			\resumeItem{Delivered \textbf{60\%} more utility  to the central dashboard by analyzing market needs and client feedback, then proposing, planning, and orchestrating a revamp of the page, using \textbf{Figma}, \textbf{Angular}, and \textbf{Django}.}
+			\resumeItem{Enhanced developer productivity and reduced avg. onboarding time by \textbf{8 hours} by centralizing and updating \textbf{50+} pages of documentation and standardizing best practices with \textbf{Confluence}, \textbf{Jira}, and \textbf{GitHub}.}
+		\resumeItemListEnd
+
+		\resumeSubheading
+		{Application Developer Intern}{May 2022 -- Aug 2022}
+		{SR Research Ltd.}{Oakville, ON}
+		\resumeItemListStart\
+			\resumeItem{Streamlined company's operations efficiency by \textbf{40\%} and eliminated \textbf{$\sim$3} error-prone areas in the production pipeline by building a specialized full-stack IMS as the sole developer.}
+			\resumeItem{Implemented a dashboard to manage product/materials inventory, auto-generate purchase order documents, and schedule inventory restocking using \textbf{React} and \textbf{Material-UI}.}
+			\resumeItem{Built the backend and SQL database to store complex product-material relations and client info with \textbf{Django}.}
+			\resumeItem{Facilitated eye-tracking research by producing scripts to quantify the curvature of eye movement path in \textbf{R}.}
+		\resumeItemListEnd
+
+	\resumeSubHeadingListEnd
+%--------------------------------
+
+%-----------PROJECTS-----------
+\section{Projects}
+	\resumeSubHeadingListStart
+	
+		\resumeProjectHeading{\textbf{\href{https://github.com/jeffzhan/UofT-Smart-Timetable-Generator}{UofT Smart Timetable Generator}} $|$ \emph{Java, JUnit}}{}
+		\resumeItemListStart
+			\resumeItem{Developed a timetable generator that returns optimized, conflict-free schedules for a student's desired courses.}
+			\resumeItem{Co-led a team of 8 developers, adhering to SOLID design principles with test-driven development in \textbf{Java}.}
+			\resumeItem{Increased testing code coverage to \textbf{100\%} using \textbf{JUnit} and utilized SonarLint extensively to maintain code quality.}
+			\resumeItem{Refined generated timetable pools by \textbf{75\%+} upon engineering the tag and filtering systems that allow for more effective and specialized timetable searching.}
+		\resumeItemListEnd
+		\resumeProjectHeading{\textbf{{Homes for Heroes (UofT Blueprint)}} $|$ \emph{React, Material-UI, Express.js}}{}
+		\resumeItemListStart
+		\resumeItem{Centralized client management by building a full-stack app comprising of CRM, management, and survey tools.}
+		\resumeItem{Constructed key UI components including login/signup, profile, and navigation, using \textbf{React} and \textbf{Material-UI}.}
+		\resumeItem{Collaborated closely in a team of 8 within an \textbf{Agile} environment to ensure timely delivery of milestones.}
+		\resumeItemListEnd
+		\resumeProjectHeading
+		{\textbf{\href{https://github.com/jeffzhan/civility}{civility - Hack the North}} $|$ \emph{Next.js, JavaScript, Express.js, co:here API, Vercel}} {}
+		\resumeItemListStart
+			\resumeItem{Created a full-stack application that conducts sentiment analysis to detect toxicity levels in text using NLP.}
+			\resumeItem{Built a minimal and accessible UI/UX with \textbf{Next.js} and the \textbf{Material-UI} library.}
+			\resumeItem{Integrated the co:here API and models custom-trained to \textbf{98\% accuracy} into the backend using \textbf{Express.js}.}
+			\resumeItem{Fully deployed the application using \textbf{Vercel} and \textbf{Heroku} for the frontend and backend, respectively.}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+%------------------------------
+
+%-----------EXTRACURRICULARS-----------
+% \section{Extracurriculars}
+% 	\resumeSubHeadingListStart
+% 		\resumeProjectHeading
+% 		{\textbf{Visual Artist}, UofT Anime \& Manga Assc.} {Sep 2021 -- Present}
+% 		\resumeProjectHeading
+% 		{\textbf{Gym-goer}, Athletic Centre} {Forever}
+% 	\resumeSubHeadingListEnd
+%-------------------------------------
+
+\end{document}
