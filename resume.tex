@@ -30,7 +30,7 @@
 
 % serif
 % \usepackage{CormorantGaramond}
-% \usepackage{charter}
+ \usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -123,25 +123,14 @@
 \section{Education}
 	\resumeSubHeadingListStart
 		\resumeSubheading
-		{University of Toronto}{Sep 2021 -- May 2025}
-		{Bachelor of Science in Computer Science (Co-op)}{Toronto, ON}
+		{University of Toronto}{Toronto, ON}
+		{Bachelor of Science in Computer Science (Co-op)}{Expected: April 2025}
 		\resumeItemListStart
-			\resumeItem{University of Toronto Scholar's Program (\textbf{Top 10\%})}
-			\resumeItem{\textbf{Courses:} Data Structures \& Algorithms, Software Design,  Operating Systems, Systems Programming}
+			\resumeItem{\textbf{Courses:} Data Structures \& Algorithms, Software Design,  Computer Organization, Operating Systems, Systems Programming, Software Engineering}
+			\resumeItem{\textbf{Awards/Activities:} UofT Scholar (\textbf{Top 5\%}), Art Studio, Gym \& Fitness Club, Innis College}
 		\resumeItemListEnd
 	\resumeSubHeadingListEnd
 %-------------------------------
-
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
-\begin{itemize}[leftmargin=0.15in, label={}]
-	\small{\item{
-		\textbf{Languages}{: Python, C, TypeScript/JavaScript, Java, SQL, HTML/CSS,  Shell} \\
-		\textbf{Frameworks/Libraries}{: Angular, React, Django, Next.js, Node.js} \\
-		\textbf{Tools \& Utilities}{: PostgreSQL, Git, Docker, Postman, Agile, CI/CD,  Unix, Linux} \\
-	}}
-\end{itemize}
-%--------------------------------------
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -149,19 +138,20 @@
 	
 		\resumeSubheading{Full-stack Developer Co-op}{May 2023 -- Dec 2023}{Temerity Analytics Inc.}{Toronto, ON}
 		\resumeItemListStart\
-			\resumeItem{Empowered clients with \textbf{2x} more analytics data by building end-to-end API integrations to retrieve/store/visualize data from third-party APIs, TikTok, Pinterest, and Google, leveraging \textbf{Angular}, \textbf{Django}, and \textbf{PostgreSQL}.}
-			\resumeItem{Delivered \textbf{60\%} more utility  to the central dashboard by analyzing market needs and client feedback, then proposing, planning, and orchestrating a revamp of the page, using \textbf{Figma}, \textbf{Angular}, and \textbf{Django}.}
-			\resumeItem{Enhanced developer productivity and reduced avg. onboarding time by \textbf{8 hours} by centralizing and updating \textbf{50+} pages of documentation and standardizing best practices with \textbf{Confluence}, \textbf{Jira}, and \textbf{GitHub}.}
+  			\resumeItem{Built API integrations to platforms such as Google Analytics 3 and 4, TikTok Business, and Pinterest Business with \textbf{Django} and \textbf{PostgreSQL}, enabling clients to view and store up to \textbf{2 years} of historical data.}
+			\resumeItem{Improved API response times  by \textbf{45\%} by leveraging query indexing, eager loading, and query profiling in \textbf{Django}.}
+			\resumeItem{Revamped the main dashboard end-to-end using \textbf{Angular} and \textbf{Django} to provide \textbf{1.75x} more utility through aggregating and visualizing key marketing metrics, catering to industry needs and client feedback.}
+			\resumeItem{Shortened onboarding duration by \textbf{8+ hours} by centralizing and updating \textbf{60 pages} of documentation on \textbf{Confluence}, as well as standardizing effective documentation practices on \textbf{Jira} and \textbf{GitHub}.}
 		\resumeItemListEnd
 
 		\resumeSubheading
 		{Application Developer Intern}{May 2022 -- Aug 2022}
 		{SR Research Ltd.}{Oakville, ON}
 		\resumeItemListStart\
-			\resumeItem{Streamlined company's operations efficiency by \textbf{40\%} and eliminated \textbf{$\sim$3} error-prone areas in the production pipeline by building a specialized full-stack IMS as the sole developer.}
-			\resumeItem{Implemented a dashboard to manage product/materials inventory, auto-generate purchase order documents, and schedule inventory restocking using \textbf{React} and \textbf{Material-UI}.}
-			\resumeItem{Built the backend and SQL database to store complex product-material relations and client info with \textbf{Django}.}
-			\resumeItem{Facilitated eye-tracking research by producing scripts to quantify the curvature of eye movement path in \textbf{R}.}
+			\resumeItem{Streamlined company's operations efficiency by \textbf{50\%} and eliminated \textbf{$\sim$3} error-prone areas in the production pipeline by building a specialized full-stack IMS as the sole developer.}
+			\resumeItem{Created a dashboard with \textbf{React} to manage inventory, generate purchase orders, and schedule restocking.}
+			\resumeItem{Migrated over \textbf{150} product \& material entries into a \textbf{Django} and \textbf{MySQL} backend and designed flexible model schemas to accommodate business specifications and product variations.}
+			\resumeItem{Developed an \textbf{R} program to quantify the curvature of eye movement paths using mathematical algorithms.}
 		\resumeItemListEnd
 
 	\resumeSubHeadingListEnd
@@ -173,27 +163,38 @@
 	
 		\resumeProjectHeading{\textbf{\href{https://github.com/jeffzhan/UofT-Smart-Timetable-Generator}{UofT Smart Timetable Generator}} $|$ \emph{Java, JUnit}}{}
 		\resumeItemListStart
-			\resumeItem{Developed a timetable generator that returns optimized, conflict-free schedules for a student's desired courses.}
+			\resumeItem{Created a timetable generator that returns optimized, conflict-free schedules for a student's desired courses.}
 			\resumeItem{Co-led a team of 8 developers, adhering to SOLID design principles with test-driven development in \textbf{Java}.}
 			\resumeItem{Increased testing code coverage to \textbf{100\%} using \textbf{JUnit} and utilized SonarLint extensively to maintain code quality.}
-			\resumeItem{Refined generated timetable pools by \textbf{75\%+} upon engineering the tag and filtering systems that allow for more effective and specialized timetable searching.}
+			\resumeItem{Engineered tag \& filtering systems for more effective timetable searching, refining timetable options by \textbf{75\%}.}
 		\resumeItemListEnd
-		\resumeProjectHeading{\textbf{{Homes for Heroes (UofT Blueprint)}} $|$ \emph{React, Material-UI, Express.js}}{}
+		\resumeProjectHeading{\textbf{{Homes for Heroes (UofT Blueprint)}} $|$ \emph{React,  JavaScript, Express.js}}{}
 		\resumeItemListStart
 		\resumeItem{Centralized client management by building a full-stack app comprising of CRM, management, and survey tools.}
 		\resumeItem{Constructed key UI components including login/signup, profile, and navigation, using \textbf{React} and \textbf{Material-UI}.}
 		\resumeItem{Collaborated closely in a team of 8 within an \textbf{Agile} environment to ensure timely delivery of milestones.}
 		\resumeItemListEnd
 		\resumeProjectHeading
-		{\textbf{\href{https://github.com/jeffzhan/civility}{civility - Hack the North}} $|$ \emph{Next.js, JavaScript, Express.js, co:here API, Vercel}} {}
+		{\textbf{\href{https://github.com/jeffzhan/civility}{Toxicity Measurer (Hack the North)}} $|$ \emph{Next.js, JavaScript, Express.js, Cohere API, Vercel}} {}
 		\resumeItemListStart
-			\resumeItem{Created a full-stack application that conducts sentiment analysis to detect toxicity levels in text using NLP.}
+			\resumeItem{Developed a full-stack application that conducts sentiment analysis to detect toxicity levels in text.}
 			\resumeItem{Built a minimal and accessible UI/UX with \textbf{Next.js} and the \textbf{Material-UI} library.}
-			\resumeItem{Integrated the co:here API and models custom-trained to \textbf{98\% accuracy} into the backend using \textbf{Express.js}.}
-			\resumeItem{Fully deployed the application using \textbf{Vercel} and \textbf{Heroku} for the frontend and backend, respectively.}
+			\resumeItem{Integrated the \textbf{Cohere API} for NLP text classification in \textbf{Express.js}.}
+			\resumeItem{Achieved deployment using \textbf{Vercel} and \textbf{Heroku} for the frontend and backend respectively.}
 		\resumeItemListEnd
 	\resumeSubHeadingListEnd
 %------------------------------
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+			\textbf{Languages}{: Python, C, TypeScript/JavaScript, Bash, Java, SQL, HTML/CSS} \\
+			\textbf{Frameworks/Libraries}{: Angular, React, Next.js, Django, Express.js, Node.js, Bootstrap, TailwindCSS} \\
+			\textbf{Tools \& Utilities}{: PostgreSQL, Git, Docker, Postman, Agile, CI/CD,  Unix, Linux, Heroku, Jira, Confluence} \\
+	}}
+\end{itemize}
+%--------------------------------------
 
 %-----------EXTRACURRICULARS-----------
 % \section{Extracurriculars}
